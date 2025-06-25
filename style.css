@@ -1,25 +1,113 @@
-.u2{
-    align-content: center;
+.box{
+    border: 2px solid black;
+    width: 240px;
+    height: 240px;
+    background-color: blueviolet;
+     border-radius: 20px;
+      
+        gap: 8px;
+        display: flex;
 }
 
-.tr4{
-    background-color: black;
+.main{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 85px 180px;
+    border: 2px solid red;
+    width: 1040px;
+    height: 1024px;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: white;
+   
+    
 }
-th{
-    background-color: rgb(254, 225, 3);
-    color: rgb(4, 4, 4);
+
+.boxcha{
+
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    background-color: yellow;
+   
+  
 }
-.tr2{
-    background-color: red;
+
+.box2{
+
+    flex-direction: column;
+
 }
-.tr5{
-    background-color: aliceblue;
+
+.box3{
+    flex-wrap: wrap;
+   
 }
-.tu6{
-    background-color: black;
-    height: 150px;
-    width: 500px;;
+
+.box0{
+  margin-bottom: 200px;
 }
-.ty6{
-    background-color: green;
+
+.box4{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.box5{
+    display: flex;
+}
+
+.box6{
+
+    display: flex;
+    justify-content: right;
+}
+
+.box7{
+    display: flex;
+    justify-content: center;
+}
+
+.box8{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box9{
+    display: flex;
+    
+}
+
+.box10{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.box11{
+
+    display: flex;justify-content: safe;
+    
+}
+
+.boxcha1{
+
+    margin-top: 90px;
+}
+
+.box12{
+
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+.body{
+
+    background-color: rgb(161, 92, 225);
 }
